@@ -1,4 +1,4 @@
-// import Image from 'next/image'
+  // import Image from 'next/image'
 
 import BLOG from '@/blog.config'
 import { ArrowSmallRight, PlusSmall } from '@/components/HeroIcons'
@@ -230,7 +230,7 @@ function TodayCard({ cRef }) {
                     <div id='more' className='select-none'>更多推荐</div>
                 </div>
             </div>
-            <div id='today-card-cover' className={`${isCoverUp ? '' : ' pointer-events-none'} cursor-pointer today-card-cover absolute w-full h-full top-0`} style={{ background: "url('https://bu.dusays.com/2023/03/12/640dcd3a1b146.png') no-repeat center /cover" }}></div>
+            <div id='today-card-cover' className={`${isCoverUp ? '' : ' pointer-events-none'} cursor-pointer today-card-cover absolute w-full h-full top-0`} style={{ background: "url('https://cdn.jsdelivr.net/gh/ruanzhengyang/upic@main/uPic/sea(高分辨率).webp') no-repeat center /cover" }}></div>
         </div>
     </div>
 }
